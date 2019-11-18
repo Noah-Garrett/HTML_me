@@ -1,9 +1,12 @@
  /* Add a card effect for articles */
  .card {
     background: rgba(255,255,255,1);
-    padding:  0 50px;
-    width: 90%;
+    padding: 3px 50px 50px 50px;
+    width: 70%;
     margin: auto;
+    border-radius: 10px;
+    border: 1px solid rgb(15, 15, 15);
+        border-radius: 10px;
     
  }
 
@@ -14,6 +17,8 @@
     width: 80%;
     margin: auto;
     border-radius: 25px;
+    border: 1px solid rgb(15, 15, 15);
+    border-radius: 15px;
  }
 
 /*test unused */
@@ -39,15 +44,10 @@
     width: 80%;
     margin: auto;
 }
-.titleboi{
-    background: rgba(255,255,255);
-    padding:  20px 50px;
-    width: 80%;
-    margin: auto;
-    border-radius: 25px;
-}
+
 .littletitleboi{
-        border: 2px solid rgb(15, 15, 15);
+        border: 5px solid rgb(15, 15, 15);
+        border-radius: 25px;
 }
 
 .underline{
@@ -83,4 +83,15 @@
 .cow {
     position: center;
     bottom: 50px
+}
+
+.titlecard {
+    background: rgb(227, 235, 252);
+    padding:  0 50px;
+    width: 70%;
+    margin: auto;
+}
+#thiccnthin {
+    border: 2px solid rgb(15, 15, 15);
+        border-radius: 25px;
 }
