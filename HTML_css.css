@@ -27,6 +27,10 @@
     padding: 0 20px;
 }
 
+h6 {
+    font-family: Arial;
+}
+
 .center {
     text-align: center
 }
